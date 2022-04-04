@@ -8,9 +8,9 @@ import { store } from './app/store.js';
 // Add import statement below
 import { Provider } from 'react-redux';
 
+// Implement Provider component with store below
 ReactDOM.render(
   <React.StrictMode>
-    // Implement Provider component with store below
     <Provider store={store}>
       <App />
     </Provider>

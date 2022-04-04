@@ -7,6 +7,10 @@ export const Score = () => {
   // Add selected data variable below
   const cardsMatched = useSelector(selectMatchedIDs);
 
+  if (cardsMatched.length >= 12) {
+    alert('You Win!!');
+  }
+
   return (
     // implement selected data inside <div>
     <div className="score-container">Matched: {cardsMatched.length}</div>
