@@ -3,7 +3,7 @@ import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { selectVisibleIDs, flipCard, selectMatchedIDs, resetCards } from '../../boardSlice';
 
-let cardLogo = "./codecademy_logo.webp";
+let cardLogo = "./card-back.png";
 
 export const Card = ({ id, contents }) => {
   // Add selected data and dispatch variables below
