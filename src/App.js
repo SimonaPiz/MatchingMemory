@@ -1,4 +1,3 @@
-import './App.css';
 import React from 'react';
 import { Score } from './features/score/Score.js';
 import { Board } from './features/board/Board.js';
