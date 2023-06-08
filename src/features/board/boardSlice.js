@@ -1,16 +1,16 @@
 const initialState = [
-  {id: 0, contents: 'Provider', visible: true, matched: true}, 
-  {id: 1, contents: 'Provider', visible: true, matched: true}, 
-  {id: 2, contents: 'selector', visible: true, matched: true}, 
-  {id: 3, contents: 'selector', visible: true, matched: true}, 
-  {id: 4, contents: 'useSelector()', visible: true, matched: true}, 
-  {id: 5, contents: 'useSelector()', visible: true, matched: true}, 
-  {id: 6, contents: 'useDispatch()', visible: true, matched: true}, 
-  {id: 7, contents: 'useDispatch()', visible: true, matched: true}, 
-  {id: 8, contents: 'Pure Function', visible: true, matched: true}, 
-  {id: 9, contents: 'Pure Function', visible: true, matched: true}, 
-  {id: 10, contents: 'react-redux', visible: true, matched: true}, 
-  {id: 11, contents: 'react-redux', visible: true, matched: true}, 
+  {id: 0, contents: '♥', visible: true, matched: true}, 
+  {id: 1, contents: '♥', visible: true, matched: true}, 
+  {id: 2, contents: '✿', visible: true, matched: true}, 
+  {id: 3, contents: '✿', visible: true, matched: true}, 
+  {id: 4, contents: '♫', visible: true, matched: true}, 
+  {id: 5, contents: '♫', visible: true, matched: true}, 
+  {id: 6, contents: '♦', visible: true, matched: true}, 
+  {id: 7, contents: '♦', visible: true, matched: true}, 
+  {id: 8, contents: '❆', visible: true, matched: true}, 
+  {id: 9, contents: '❆', visible: true, matched: true}, 
+  {id: 10, contents: '☼', visible: true, matched: true}, 
+  {id: 11, contents: '☼', visible: true, matched: true}, 
 ];
 
 export const boardReducer = (state = initialState, action) => {
@@ -50,12 +50,12 @@ export const boardReducer = (state = initialState, action) => {
 }
 
 const wordPairs = [
-  'Provider', 'Provider', 
-  'selector', 'selector', 
-  'useSelector()', 'useSelector()', 
-  'useDispatch()', 'useDispatch()',
-  'Pure Function', 'Pure Function',
-  'react-redux', 'react-redux',
+  '♥', '♥', 
+  '✿', '✿', 
+  '♫', '♫', 
+  '♦', '♦',
+  '❆', '❆',
+  '☼', '☼',
 ]
 
 const randomWords = () => {
